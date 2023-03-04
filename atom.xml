@@ -6,7 +6,7 @@
   <link href="http://yunduoii.github.io/atom.xml" rel="self"/>
   
   <link href="http://yunduoii.github.io/"/>
-  <updated>2023-03-02T02:45:54.304Z</updated>
+  <updated>2023-03-04T13:05:10.887Z</updated>
   <id>http://yunduoii.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yunduoii.github.io/post/4a17b156.html"/>
     <id>http://yunduoii.github.io/post/4a17b156.html</id>
     <published>2023-02-27T10:47:08.573Z</published>
-    <updated>2023-03-02T02:45:54.304Z</updated>
+    <updated>2023-03-04T13:05:10.887Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Unity-UI"><a href="#Unity-UI" class="headerlink" title="Unity UI"></a>Unity UI</h2><h2 id="1、初步认识"><a href="#1、初步认识" class="headerlink" title="1、初步认识"></a>1、初步认识</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="Unity-UI"><a href="#Unity-UI" class="headerlink" title="Unity UI"></a>Unity UI</h2><h2 id="1、初步认识"><a href="#1、初步认识" class="headerlink" title="1、初步认识"></a>1、初步认识</h2><h3 id="Canvas组件"><a href="#Canvas组件" class="headerlink" title="Canvas组件"></a>Canvas组件</h3><h4 id="Canvas-Overlay模式"><a href="#Canvas-Overlay模式" class="headerlink" title="Canvas-Overlay模式"></a>Canvas-Overlay模式</h4><p>Pixel Perpect:高像素清晰度渲染。</p><p>Sort Order：多Canvas时，用来控制哪个画布在前面显示。</p><h4 id="Canvas-Camera模式"><a href="#Canvas-Camera模式" class="headerlink" title="Canvas-Camera模式"></a>Canvas-Camera模式</h4><p>Plane Distance：用来调节画布与摄像机贴合距离</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230302210102899.png" alt="image-20230302210102899"></p><p>Order in Layer:Sorting Layer（排序层）和Order in Layer相同时，距离相近越近，越靠前。</p><p>Sorting Layers如下：</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230302213323710.png"></p><h4 id="Canvas-World模式"><a href="#Canvas-World模式" class="headerlink" title="Canvas-World模式"></a>Canvas-World模式</h4><p>Canvas以3D物体的形式显示在场景中。</p><h3 id="Canvas缩放"><a href="#Canvas缩放" class="headerlink" title="Canvas缩放"></a>Canvas缩放</h3><p>​            <img src="F:\myboke\hexoo\source_posts\imgg\clip_image001.png" alt="img"></p><p>​          该组件会拉伸所有Canvas下的子元素</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230303210253258.png" alt="image-20230303210253258"></p><h4 id="Constant-Pixel-Size"><a href="#Constant-Pixel-Size" class="headerlink" title="Constant Pixel Size"></a>Constant Pixel Size</h4><p>默认模式，默认静态拉伸。</p><h4 id="Sacle-With-Screen-Size（常用）"><a href="#Sacle-With-Screen-Size（常用）" class="headerlink" title="Sacle With Screen Size（常用）"></a>Sacle With Screen Size（常用）</h4><p>根据UI设计师给的图片进行适配：</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230303211354331.png" alt="image-20230303211354331"></p><p>根据宽度或者高度进行自动拉伸，自动计算。</p><p><strong>一定要恢复原始大小 Set Native Size！！！</strong></p><p>计算方法：18:9下：缺失两边，（设计分辨率高度 / 9）* 18</p><p>​                   16:9下：美术一般都会按照16:9出图</p><p>​                   4:3下：缺失上下，（设计分辨率宽度 / 4）* 3</p><h4 id="Constant-Physical-Size"><a href="#Constant-Physical-Size" class="headerlink" title="Constant Physical Size"></a>Constant Physical Size</h4><p>物理模式，根据英寸进行计算，不常用。</p><h4 id="RectTransform组件"><a href="#RectTransform组件" class="headerlink" title="RectTransform组件"></a>RectTransform组件</h4><p>​          出现位置：出现在所有Canvas子元素中，所有UI元素都应该有RectTransform组件</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230303212624739.png" alt="image-20230303212624739"></p><p>Pos（XYZ）：位置（X，Y，Z），单位（像素），<strong>位置是由轴点到锚点的距离</strong></p><p>Width，Height：宽和高，单位（像素）</p><p> Anchors：锚点（四叶草），<strong>以父物体参考</strong></p><p>这里X和Y的值为物体锚点（四叶草）到轴点（中心点）的距离</p><p><img src="F:\myboke\hexoo\source_posts\imgg\image-20230303212807963.png" alt="image-20230303212807963"></p><p>改成Pivot模式，可以改动轴点。</p><p>UGUI先进方式：<strong>双锚点</strong></p><p>shift 快捷调节锚点，alt快捷移动</p><p>单锚点：距离计算是锚点到轴点的XYZ偏移</p><p>​              双锚点：元素边界到锚线的距离，轴点到锚线的距离</p><p>​              四锚点：元素的四个边界到锚框的距离</p><p>​          锚点快速选择工具（十字符号）</p><p>​               默认：移动锚点</p><p>​              Alt：移动锚点+快速停靠位置</p><p>​              Shift：移动锚点+移动轴点+快速停靠位置</p>]]></content>
     
     
       
