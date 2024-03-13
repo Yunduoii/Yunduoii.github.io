@@ -6,7 +6,7 @@
   <link href="http://yunduoii.github.io/atom.xml" rel="self"/>
   
   <link href="http://yunduoii.github.io/"/>
-  <updated>2024-03-08T04:38:35.425Z</updated>
+  <updated>2024-03-08T04:38:35.423Z</updated>
   <id>http://yunduoii.github.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>深度学习毕设</title>
-    <link href="http://yunduoii.github.io/post/52f2eb04.html"/>
-    <id>http://yunduoii.github.io/post/52f2eb04.html</id>
-    <published>2024-03-08T04:38:04.000Z</published>
-    <updated>2024-03-08T04:38:35.425Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title></title>
@@ -56,7 +43,7 @@
     <link href="http://yunduoii.github.io/post/c8a4b253.html"/>
     <id>http://yunduoii.github.io/post/c8a4b253.html</id>
     <published>2023-03-14T15:42:46.000Z</published>
-    <updated>2023-03-15T02:31:13.277Z</updated>
+    <updated>2023-03-15T14:27:02.527Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Unity游戏豆腐工艺"><a href="#Unity游戏豆腐工艺" class="headerlink" title="Unity游戏豆腐工艺"></a>Unity游戏豆腐工艺</h1><h2 id="1、游戏概况"><a href="#1、游戏概况" class="headerlink" title="1、游戏概况"></a>1、游戏概况</h2><p>主要内容：开发工具介绍、游戏名称、游戏类型、游戏风格、游戏特点、目标用户定位、游戏创意点说明。(600字以内，可附必要的图片)</p><p><strong>开发工具</strong>：Unity 3D</p><img src="/post/c8a4b253/image-20230315100204139.png" class title="游戏制作工具"><p><img src="/post/image-20230315100204139.png" alt="image-20230315100204139"></p><p><strong>游戏名称</strong>：豆腐工坊   </p><p><strong>游戏类型</strong>：角色扮演 模拟动作   </p><p><strong>游戏风格</strong>：轻松 古风   </p><p><strong>游戏特点</strong>：在日常生活中，我们很少能亲眼看见豆腐的制作过程，但这是我们文化中很重要的一道美食。在这款游戏中玩家扮演的角色，可以跟着流程体验传统工艺制作豆腐，感受其中的乐趣，玩法简单，同时豆腐工坊位处古代市井中，玩家也可以体验到不一样的繁华街市。   目标用户：全年龄向，想要体验豆腐加工工序的人   创意：首先在游戏玩法上，我们摒弃了传统游戏复杂且庞大的玩法机制，旨在更好的让大家直观的体验到豆腐的制作工艺，其次我们将游戏的场景设定在古代的街市中，为了让大家更好的了解传统文化，以及获得更好的沉浸式体验。   </p><h2 id="2、游戏构思"><a href="#2、游戏构思" class="headerlink" title="2、游戏构思"></a>2、游戏构思</h2><h3 id="主要内容-描述背景故事、故事主线提纲、关卡设计、创意元素等。"><a href="#主要内容-描述背景故事、故事主线提纲、关卡设计、创意元素等。" class="headerlink" title="主要内容:描述背景故事、故事主线提纲、关卡设计、创意元素等。"></a><strong>主要内容</strong>:描述背景故事、故事主线提纲、关卡设计、创意元素等。</h3><h3 id="故事背景："><a href="#故事背景：" class="headerlink" title="故事背景："></a><strong>故事背景</strong>：</h3><p>明朝永乐年间，在京师有一家名不经传的豆腐坊，店主是这家豆腐坊的第六代传人，但事实上他只见过他父亲做豆腐，其他人他没见过，但是他的父亲已年迈不能再进行一些体力活了，便把做豆腐的技艺传给了我，但是我深知只靠我一个人很难将这门技术发扬光大，所以我来到了我们家位于市井深处的院子，向大家展示做豆腐店的工艺流程，将这门技艺传授给所有到场学习的人。</p><h3 id="主线："><a href="#主线：" class="headerlink" title="主线："></a><strong>主线</strong>：</h3><p>古书《<a href="https://zh.wikipedia.org/wiki/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE">本草纲目</a>》谷部卷25”豆腐”：“凡黑豆、黄豆及白豆、泥豆、豌豆、绿豆之类，皆可为之。水浸，硙碎。滤去渣，煎成。以卤汁或山矾叶或酸浆醋淀，就釜收之。”简述其生产过程是：选豆一浸豆→磨豆→滤浆→煮浆→点浆→成型，这也就是传统豆腐生产的基本过程。主角将在庭院中展示所有这些技艺。</p><h3 id="关卡设计："><a href="#关卡设计：" class="headerlink" title="关卡设计："></a><strong>关卡设计</strong>：</h3><p>玩家通过提示完成豆腐的制作流程，但是每个步骤有相应的前后顺序玩家需要通过提示，完成相应的步骤，出错会提示，完成后会出现做好的豆腐动画，每一个步骤都是按照现实生活中的步骤设计的非常有代入感。</p><h4 id="1、滤豆设计"><a href="#1、滤豆设计" class="headerlink" title="1、滤豆设计"></a>1、滤豆设计</h4><p><video src="./../../../../qq/lvdou.mp4"></video></p><p><video src="./Unity/modou.mp4"></video></p><p><strong>创意元素</strong>：古风的游戏场景和传统的制作工艺。</p><h2 id="3、设计元素"><a href="#3、设计元素" class="headerlink" title="3、设计元素"></a>3、设计元素</h2><h3 id="角色设计："><a href="#角色设计：" class="headerlink" title="角色设计："></a>角色设计：</h3><p>角色是一位老者，在普遍的的印象当中一个人的年纪和他的生活阅历是划等号的，所以用老人的形象来表现他的专业和娴熟</p><h3 id="道具设计："><a href="#道具设计：" class="headerlink" title="道具设计："></a>道具设计：</h3><p>筛豆子需要的筛子，磨豆子需要的磨盘和水桶，房屋内部的装饰，具有农家特色的瓶瓶罐罐，还有烹饪的大锅以及压豆腐的模型。</p><h3 id="地图场景设计："><a href="#地图场景设计：" class="headerlink" title="地图场景设计："></a>地图场景设计：</h3><p>在一个古代的闹市中，市井深处有一户人家，我们的主场景是繁华的街市，采用古代常见的中轴线设计，展现出城市的恢弘和繁华，线性的地图增加玩家探索性的同时，也让玩家能够完整的体验整个场景。</p><img src="/post/c8a4b253/clip_image002-1678846277240-5.jpg" class title="游戏场景"><p><img src="/post/clip_image002-1678846277240-5.jpg" alt="img"></p><p>图 2地图场景</p><h3 id="UI设计："><a href="#UI设计：" class="headerlink" title="UI设计："></a>UI设计：</h3><p>本作UI尽量做到与游戏风格的统一，在交互和物品栏都使用了古风的元素，并且在界面中也加入了一些豆腐的元素让玩家时刻沉浸在制作豆腐中。</p><h4 id="开始界面"><a href="#开始界面" class="headerlink" title="开始界面"></a>开始界面</h4><img src="/post/c8a4b253/clip_image004.jpg" class><p> <img src="/post/clip_image004.jpg" alt="img">            </p><p>设置界面：</p><p>头像框：                                                                             </p><img src="/post/c8a4b253/image-20230314234349940.png" class title="This is an test image"><p><img src="/post/image-20230314234349940.png" alt="image-20230314234349940"></p><p>音乐美术资源：均为网上下载可自用模型，以及自己参考建模</p><p>以下为链接：</p><h2 id="4、游戏机制"><a href="#4、游戏机制" class="headerlink" title="4、游戏机制"></a>4、游戏机制</h2><h3 id="基本规则和流程"><a href="#基本规则和流程" class="headerlink" title="基本规则和流程"></a>基本规则和流程</h3><p>玩家操作角色，按照现实生活中做豆腐的流程，完成制作豆腐。</p><h3 id="游戏操作"><a href="#游戏操作" class="headerlink" title="游戏操作"></a>游戏操作</h3><p>操作简单易上手，只需要W A S D和交互键以及鼠标</p><h3 id="玩法核心"><a href="#玩法核心" class="headerlink" title="玩法核心"></a>玩法核心</h3><p>让人们全流程体验制作豆腐的乐趣</p><h3 id="乐趣点"><a href="#乐趣点" class="headerlink" title="乐趣点"></a>乐趣点</h3><p>体验制作工艺，沉浸在古代场景中。</p><h2 id="5、流程设计"><a href="#5、流程设计" class="headerlink" title="5、流程设计"></a>5、流程设计</h2><p>1、先将豆子取出进行筛豆</p><p>2、将豆子浸泡，并把豆子放入磨盘中进行研磨</p><p>3、取出豆浆过滤后倒入锅中进行熬煮</p><p>4、把煮好的豆浆放进模具中</p><p>5、压好豆腐后可以制作菜肴</p>]]></content>
     
